@@ -13,5 +13,5 @@ A railway management system built with C# .net
     Screenshots Of some Features
     
 ----------- | -------------
-![Add](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%203.png)
-![Map](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%204.png)
+![Add](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%203.png | width =130) |
+![Map](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%204.png | width=130)
