@@ -6,12 +6,12 @@ A railway management system built with C# .net
   GUI made with Winows form
   
     Add on's
-   Bunifu framework
-    
+    * Bunifu framework
    
    
     Screenshots Of some Features
+    
+<img src="https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%203.png" data-canonical-src="https://github.com/Bekidelta4/Rail-way-Management-system/" width="500" height="300" />
 
-![Add](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%203.png 250x250)
 
-![Map](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%204.png | width=130)
+<img src="https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%204.png" data-canonical-src="https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%204.png" width="500" height="300" />
