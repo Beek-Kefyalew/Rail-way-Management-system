@@ -1,6 +1,6 @@
 # Rail-way-Management-system
 
-.. image:: (https://github.com/Bekidelta4/Rail-way-Management-system/uiSucks/Screenshot/Screenshot 1.png)
+.. image:: https://github.com/Bekidelta4/Rail-way-Management-system/uiSucks/Screenshot/Screenshot 1.png
 
 A railway management system built with C# .net
 
