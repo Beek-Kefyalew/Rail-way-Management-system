@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79177A48-9126-4AA0-823F-841C80D6A758}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>uiSucks</RootNamespace>
+    <AssemblyName>uiSucks</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\bek\Desktop\BuildingMGMT\railway\RMRF\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>92FA05037F8693637B6474DEDE8ECE5E6AD6F4BA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>uiSucks_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Bunifu UI WinForms 1.8.0.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2019.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.ChartView, Version=2019.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2019.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2019.1.117.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adding Forms\Add Train.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\Add Train.Designer.cs">
+      <DependentUpon>Add Train.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editing Forms\Edit Train.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editing Forms\Edit Train.Designer.cs">
+      <DependentUpon>Edit Train.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\Contact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\Contact.Designer.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteConf.Designer.cs">
+      <DependentUpon>DeleteConf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editing Forms\Edit Employee Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editing Forms\Edit Employee Form.Designer.cs">
+      <DependentUpon>Edit Employee Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adding Forms\Add Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\Add Employee.Designer.cs">
+      <DependentUpon>Add Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\employeesUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\employeesUC.Designer.cs">
+      <DependentUpon>employeesUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="errorMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="errorMessage.Designer.cs">
+      <DependentUpon>errorMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\Help.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForms\Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\MyTrainUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\MyTrainUC.Designer.cs">
+      <DependentUpon>MyTrainUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlls\Map.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\ReportUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\ReportUC.Designer.cs">
+      <DependentUpon>ReportUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyClasses\DataConnection.cs" />
+    <Compile Include="MyClasses\Encryption.cs" />
+    <Compile Include="MainForms\TrainMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForms\TrainMain.Designer.cs">
+      <DependentUpon>TrainMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControlls\Ticket.Designer.cs">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\TrainsUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\TrainsUC.Designer.cs">
+      <DependentUpon>TrainsUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adding Forms\UserAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adding Forms\UserAdd.Designer.cs">
+      <DependentUpon>UserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlls\UsersUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlls\UsersUC.Designer.cs">
+      <DependentUpon>UsersUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Adding Forms\Add Train.resx">
+      <DependentUpon>Add Train.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteConf.resx">
+      <DependentUpon>DeleteConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editing Forms\Edit Train.resx">
+      <DependentUpon>Edit Train.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editing Forms\Edit Employee Form.resx">
+      <DependentUpon>Edit Employee Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adding Forms\Add Employee.resx">
+      <DependentUpon>Add Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\employeesUC.resx">
+      <DependentUpon>employeesUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="errorMessage.resx">
+      <DependentUpon>errorMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\MyTrainUC.resx">
+      <DependentUpon>MyTrainUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControlls\Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\ReportUC.resx">
+      <DependentUpon>ReportUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForms\TrainMain.resx">
+      <DependentUpon>TrainMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\Ticket.resx">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\TrainsUC.resx">
+      <DependentUpon>TrainsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adding Forms\UserAdd.resx">
+      <DependentUpon>UserAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlls\UsersUC.resx">
+      <DependentUpon>UsersUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\uiSucks.MyClasses.DataAccess.DataConnection.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="uiSucks_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D41R4kQxg7DdL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_copy_4105W960.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_users_4105943.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot at 2019-02-01 13-07-27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_OUTLINE_Bussiness_and_Media-22_40W41213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_fav_4105937.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_fav_410593GRE7W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_info_4105939.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_circle-cross_4105963.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_circle-minus_4105964.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Glong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_message-1_4105942.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_credit-cards_4105W958.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_finance-money-dollar-49_4058W034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_OUTLINE_Bussiness_and_Media-22_40W412131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_OUTLINE_Bussiness_and_Media-22_4041213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DEL32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DEL16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\733236-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\733236- 200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41R4kQxg7dL64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DED41R4kQxg7DdL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-123-printer_3148W20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-123-printer_3148W201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %28115%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_batman_hero_avatar_comics_4043232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Call_calling_phone_communication_4014660.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmrf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_circle-plus_4105962.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
