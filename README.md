@@ -1,10 +1,7 @@
 # Rail-way-Management-system
 
-.. image:: https://github.com/Bekidelta4/Rail-way-Management-system/uiSucks/Screenshot/Screenshot 1.png
-
+![Dash Board](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%201.png)
 A railway management system built with C# .net
-
-
 
   GUI made with Winows form
   
@@ -15,9 +12,6 @@ A railway management system built with C# .net
    
     Screenshots Of some Features
     
-    
-![alt text](https://github.com/Bekidelta4/Rail-way-Management-system/uiSucks/Screenshot/Screenshot 2.png)
-
-![alt text](https://github.com/Bekidelta4/Rail-way-Management-system/uiSucks/Screenshot/Screenshot 3.png)
-
-![alt text](https://github.com/Bekidelta4/Rail-way-Management-system/uiSucks/Screenshot/Screenshot 4.png)
+----------- | -------------
+![Add](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%203.png)
+![Map](https://github.com/Bekidelta4/Rail-way-Management-system/blob/master/uiSucks/Screenshot/Screenshot%204.png)
